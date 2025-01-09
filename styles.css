@@ -26,43 +26,6 @@ img {
 }
 
 * { box-sizing: border-box; }
-/* Logo Container Styling */
-.logo-container {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.logo-container h1 {
-    font-family: Arial, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #333;
-    margin: 0;
-    line-height: 1.2;
-}
-
-.logo-container h1 br {
-    display: none; /* Optional: Adjust for better styling on smaller screens */
-}
-
-.logo-container a {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.logo-container img {
-    width: 100px; /* Adjust size as needed */
-    height: auto;
-    border-radius: 50%; /* Makes the logo circular */
-    border: 2px solid #ccc;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.logo-container img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 
 /************ End CSS Reset  *************/
@@ -168,6 +131,7 @@ header .wrapper {
 
 #logo {
 	margin-right:20px;
+	width: 100px;
 }
 
 
